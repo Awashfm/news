@@ -20,7 +20,7 @@
       "type": "text",
       "required": true
     },
-    "image": {
+    "post_image": {
       "model": "file",
       "via": "related",
       "allowedTypes": [
@@ -32,13 +32,18 @@
       "required": true,
       "pluginOptions": {}
     },
-    "date": {
+    "Post_date": {
       "type": "date"
     },
     "categories": {
       "via": "articles",
       "collection": "categories",
       "dominant": true
+    },
+    "Author": {
+      "type": "string",
+      "required": true,
+      "default": "Awash FM90.7"
     }
   }
 }

@@ -19,6 +19,17 @@
     "articles": {
       "via": "categories",
       "collection": "articles"
+    },
+    "category_Id": {
+      "type": "string",
+      "unique": true,
+      "required": true
+    },
+    "count": {
+      "type": "integer",
+      "required": true,
+      "unique": true,
+      "default": 0
     }
   }
 }
