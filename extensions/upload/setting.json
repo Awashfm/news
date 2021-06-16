@@ -1,0 +1,10 @@
+{
+    "provider": "cloudinary",
+    "providerOptions":{
+       "cloud_name": "awashfm",
+       "api_key": "919521785167754",
+       "api_secret": "lYCEruQ5iYZ-vsKzB0DZDovARKU",
+       "enhance_image_tag": true,
+       "static_file_support": false
+    }
+ }
